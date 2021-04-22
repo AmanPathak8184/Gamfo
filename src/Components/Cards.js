@@ -11,9 +11,10 @@ class Cards extends Component {
                     <h3 className="card-title">Tekken 7 has reached another milestone</h3>
                     <p className="text-muted ">Tekken 7 has reached another milestone with over 7 MILLION sales worldwide!
                       Thank You to all our fans for their continued support, now get ready for the next battle!</p>
-                    <p>
-                        <button className="rounded" id="CardButtons"> <h5> XBOX</h5></button>
-                    </p>
+                    <div className=" row d-flex justify-content-start ">
+                        <button className="rounded" id="CardButtons">  XBOX/PS5/ANDROID</button>
+                        <button className="rounded" id="CardButtons">  299$</button>
+                    </div>
                 </div>
             </div>
         );

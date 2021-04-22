@@ -7,10 +7,12 @@
   }
 
 #CardButtons{
+  
+  margin: 1%;
   background-color:#3AAFA9 ;
   color: white;
   border: none;
   padding: 2%;
-  align-items: center;
-  justify-content: center;
+ font-size: 3vh;
+ font-weight:bold;
 }
