@@ -23,6 +23,8 @@ function App() {
         <ImageCard ImageCaption="Pre-orders for Tales of Arise are now available."
                    ImageLink="/Images/ImageCard/Card2.jpg" />
 
+        <Cards />
+
         </div>
 
       </section>

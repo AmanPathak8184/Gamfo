@@ -6,15 +6,12 @@ class Cards extends Component {
         return ( 
 
             <div className="card " id="Cards">
-                <img src="/Images/1.jpg" className="card-img-top" alt="..." />
+                <img src="/Images/ImageCard/Card3.jpg" className="card-img-top " alt="..."  id="CardsImage"/>
                 <div className="card-body ">
                     <h3 className="card-title">Tekken 7 has reached another milestone</h3>
                     <p className="text-muted ">Tekken 7 has reached another milestone with over 7 MILLION sales worldwide!
                       Thank You to all our fans for their continued support, now get ready for the next battle!</p>
-                    <div className=" row d-flex justify-content-start ">
-                        <button className="rounded" id="CardButtons">  XBOX/PS5/ANDROID</button>
-                        <button className="rounded" id="CardButtons">  299$</button>
-                    </div>
+                   
                 </div>
             </div>
         );
