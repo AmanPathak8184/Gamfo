@@ -14,11 +14,6 @@ function App() {
           {/* This Is Card 1 */}
           <Cards />
 
-          {/* This Is Card 2 */}
-          <Cards />
-
-          {/* This Is Card 3 */}
-          <Cards />
 
         </div>
 
