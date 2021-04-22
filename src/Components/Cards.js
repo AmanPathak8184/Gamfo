@@ -14,7 +14,7 @@ class Cards extends Component {
                       Thank You to all our fans for their continued support, now get ready for the next battle!</p>
                       <div className="container" >
                           <div className="row justify-content-end">
-                      <button type="button" className="btn btn-outline-success" id="CardButton1">Read More</button>
+                      <button type="button" className="btn btn-outline-success" id="CardButton">Read More</button>
                       </div>
                       </div>
                 </div>

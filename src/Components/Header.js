@@ -4,7 +4,7 @@ class Header extends Component {
     render() {
         return (
 
-            <header>
+            <header id="HeaderId">
                 <div className="collapse" id="navbarToggleExternalContent">
                     <div className="bg-dark p-4"  >
                         <h5 className="text-white h4">All Game Related News</h5>
