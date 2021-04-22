@@ -4,30 +4,21 @@ import Header from './Components/Header';
 import Cards from './Components/Cards';
 import Carousel from './Components/Carousel';
 import ImageCard from './Components/ImageCard';
+import HeadingText from './Components/HeadingText';
+
 function App() {
   return (
     <div>
       <Header />
 
-     
-      <Carousel />
-
-      <section className="Featured"> 
-         <span id="HeadingText">FEATURED</span>
-      </section>
+      <HeadingText heading="Featured Prop" /> 
 
       <section className="container-fluid  ">
         
         <div className="row d-flex justify-content-center">
 
-          {/* This Is Card 1 */}
-          <Cards />
-
-            {/* This Is Card 1 */}
-            <Cards />
-
-          {/* This Is Card 1 */}
-          <Cards />
+        <ImageCard ImageCaption="Get Triple Rewards on Casino Work in GTA Online"
+                   ImageLink="/Images/ImageCard/Card1.jpg" />
 
         </div>
 

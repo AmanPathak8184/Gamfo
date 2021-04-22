@@ -5,13 +5,11 @@ class ImageCard extends Component {
     render() {
         return (
 
-            <div class="view overlay">
-            <img src="https://mdbootstrap.com/img/Photos/Others/forest-sm.jpg" class="img-fluid " alt="smaple image"/>
-            <div class="mask flex-center rgba-red-light">
-              <p class="white-text">Light overlay</p>
-            </div>
+            <div class="" id="ImageCardDiv">
+            <img src={this.props.ImageLink} class="img-fluid " alt=""/>
+            <p id="ImageCardCaption">{this.props.ImageCaption}</p>
           </div>
-        );
+        ); 
     }
 }
 export default ImageCard;
