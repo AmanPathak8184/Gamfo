@@ -14,7 +14,7 @@ class Header extends Component {
                 <nav className="navbar navbar-dark bg-light  p-2 mb-2 bg-body" >
                     <div className="container-fluid d-flex justify-content-between" >
 
-                        <span className="display-5 text-dark " ><h1>Gamfo</h1></span>
+                        <span className="display-5 text-dark " ><h1>Gamfo1</h1></span>
                         <button className="navbar-toggler " type="button"
                             data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent"
                             aria-controls="navbarToggleExternalContent" aria-expanded="false"
