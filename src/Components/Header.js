@@ -11,10 +11,10 @@ class Header extends Component {
                         <span className="text-muted">Scroll and view latest updates</span>
                     </div>
                 </div>
-                <nav className="navbar navbar-dark  p-2 mb-2 bg-body "  id="HeadColor">
+                <nav className="navbar navbar-dark  p-0 mb-2 bg-body "  id="HeadColor">
                     <div className="container-fluid d-flex justify-content-between" >
 
-                        <span className="display-5 text-light " ><h1>Gamfo</h1></span>
+                        <span className=" text-light " ><h2>Gamfo</h2></span>
                         <button className="navbar-toggler " type="button"
                             data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent"
                             aria-controls="navbarToggleExternalContent" aria-expanded="false"

@@ -9,11 +9,9 @@ function App() {
       <Header />
 
      
-
+      <Carousel />
       <section className="container-fluid  ">
         
-      <Carousel />
-
         <div className="row d-flex justify-content-center">
 
           {/* This Is Card 1 */}
