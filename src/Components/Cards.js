@@ -5,7 +5,7 @@ class Cards extends Component {
     render() {
         return (
 
-            <div className="card" id="Cards">
+            <div className="card " id="Cards">
                 <img src="/Images/1.jpg" className="card-img-top" alt="..." />
                 <div className="card-body ">
                     <h3 className="card-title">Tekken 7 has reached another milestone</h3>
