@@ -3,6 +3,7 @@ import React from 'react';
 import Header from './Components/Header';
 import Cards from './Components/Cards';
 import Carousel from './Components/Carousel';
+import ImageCard from './Components/ImageCard';
 function App() {
   return (
     <div>
@@ -10,6 +11,11 @@ function App() {
 
      
       <Carousel />
+
+      <section className="Featured"> 
+         <span id="HeadingText">FEATURED</span>
+      </section>
+
       <section className="container-fluid  ">
         
         <div className="row d-flex justify-content-center">
