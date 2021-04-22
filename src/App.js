@@ -19,6 +19,9 @@ function App() {
 
         <ImageCard ImageCaption="Get Triple Rewards on Casino Work in GTA Online"
                    ImageLink="/Images/ImageCard/Card1.jpg" />
+        
+        <ImageCard ImageCaption="Pre-orders for Tales of Arise are now available."
+                   ImageLink="/Images/ImageCard/Card2.jpg" />
 
         </div>
 

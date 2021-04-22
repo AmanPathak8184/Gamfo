@@ -8,11 +8,12 @@
     margin: 0%;
     padding: 1%;
     position:absolute;
-    font-size: 25px;
+    font-size: 15px;
+    font-weight: bold;
     bottom: 0%;
     width: 100%;
     background: rgba(0, 0, 0, 0.4);
     color: #FFF;
-    text-align: center;
+    
   
 }
