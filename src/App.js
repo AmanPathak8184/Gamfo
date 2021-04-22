@@ -11,19 +11,22 @@ function App() {
     <div>
       <Header />
 
-      <HeadingText heading="Featured Prop" /> 
+      <HeadingText heading="Featured" /> 
 
       <section className="container-fluid  ">
         
         <div className="row d-flex justify-content-center">
+
+        
+        <Cards />
+
+        <Cards />
 
         <ImageCard ImageCaption="Get Triple Rewards on Casino Work in GTA Online"
                    ImageLink="/Images/ImageCard/Card1.jpg" />
         
         <ImageCard ImageCaption="Pre-orders for Tales of Arise are now available."
                    ImageLink="/Images/ImageCard/Card2.jpg" />
-
-        <Cards />
 
         </div>
 
