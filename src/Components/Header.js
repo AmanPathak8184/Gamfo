@@ -19,7 +19,7 @@ class Header extends Component {
                             data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent"
                             aria-controls="navbarToggleExternalContent" aria-expanded="false"
                             aria-label="Toggle navigation ">
-                            <h1 className="bi bi-justify text-light " > </h1>
+                            <h1 className="bi bi-list-nested text-light  " > </h1>
                         </button>
 
                     </div>
