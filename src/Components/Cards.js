@@ -8,11 +8,17 @@ class Cards extends Component {
         return (
 
 
-
             <div className="row  card shadow CardHolder" id="Cards">
 
+<div class="embed-responsive embed-responsive-16by9" id="Video">
+<iframe width="727" height="409" src="https://www.youtube.com/embed/kKLCwDg2JLA" title="YouTube video player" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-                <img src={this.props.imageLink} className="card-img-top " alt="..." id="CardsImage" />
+</div>
+
+
+                {/* <img src={this.props.imageLink} className="card-img-top " alt="..." id="CardsImage" /> */}
                 
                 <div className="card-body ">
                     <h3 className="card-title">{this.props.cardHeading}</h3>
