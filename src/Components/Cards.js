@@ -11,8 +11,9 @@ class Cards extends Component {
             <div className="row  card shadow CardHolder" id="Cards">
 
                 <img src={this.props.imageLink} className="card-img-top " alt="..." id="CardsImage" />
-                
+              
                 <div className="card-body ">
+               
                     <span className="card-title">{this.props.cardHeading}</span>
                     <p className="text-muted ">{this.props.shortDescription}</p>
 

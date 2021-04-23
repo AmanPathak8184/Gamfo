@@ -11,7 +11,7 @@ function App() {
     <div>
       <Header />
 
-      <HeadingText heading="Featured-26" /> 
+      <HeadingText heading="Featured-27" /> 
 
       <section className="container-fluid  ">
         
@@ -36,6 +36,13 @@ function App() {
                 shortDescription="You've got 48 hours left to save big on Horizon Zero Dawn for PC.
                 Grab the Complete Edition for $29.99 to uncover Aloy's destiny, but be quick - this sale
                 ends on April 25!"
+        />
+
+        <Cards  imageLink="/Images/Cards/Card4.jpg"
+                cardHeading="Claim Hand of Fate 2 & Alien:Isolation for Free!"
+                shortDescription="Tempt fate in a living board game set in a world of dark fantasy, or
+                discover the true meaning of fear facing mortals danger...in space.
+                Claim Hand of Fate 2 & Alien:Isolation for Free! on the Epic Games Store until April 29!"
         />
 
         </div>
