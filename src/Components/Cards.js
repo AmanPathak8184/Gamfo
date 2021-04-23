@@ -5,15 +5,15 @@ import ReactReadMoreReadLess from "react-read-more-read-less";
 class Cards extends Component {
 
     render() {
-
         return (
 
 
 
             <div className="row  card shadow CardHolder" id="Cards">
 
-                <img src={this.props.imageLink} className="card-img-top " alt="..." id="CardsImage" />
 
+                <img src={this.props.imageLink} className="card-img-top " alt="..." id="CardsImage" />
+                
                 <div className="card-body ">
                     <h3 className="card-title">{this.props.cardHeading}</h3>
                     <p className="text-muted ">{this.props.shortDescription}</p>
