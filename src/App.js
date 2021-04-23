@@ -11,7 +11,7 @@ function App() {
     <div>
       <Header />
 
-      <HeadingText heading="Featured" /> 
+      <HeadingText heading="Featured-24" /> 
 
       <section className="container-fluid  ">
         
