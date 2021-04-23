@@ -28,7 +28,15 @@ function App() {
                  "
         />
 
-
+<Cards  imageLink="/Images/Cards/Card1.jpg"
+                cardHeading="Tekken 7 has reached another milestone"
+                shortDescription="Tekken 7 has reached another milestone with over 7 MILLION sales worldwide!
+                Thank You to all our fans for their continued support, now get
+                 ready for the next battle!"
+                longDescription="
+                 To help celebrate, the developer has once again added to its character artwork, which you can find at the top of this article. It now includes the most recent DLC fighters, Kunimitsu and Lidia.
+                 "
+        />
 
         </div>
 

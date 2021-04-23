@@ -11,7 +11,7 @@
   }
 
   .CardButton{
-
+    margin-top:10px;
     position: relative;
     z-index: 1;
     color: #3AAFA9;
@@ -27,37 +27,4 @@
      color: #3AAFA9;
      border-color: #3AAFA9; 
  }
- .video{
-  margin-bottom:14px;
-  width:1170px;
-  height:658px;
-}
-.video-box{
-  height:925px;
-  width:1646px;
-  position:relative;
-}
-
-.video-thumbnail{
-  z-index:300;
-  position:absolute;
-  top:0;
-  left:0;
-  width:100%;
-}
-
-.video-frame{
-  z-index:100;
-  position:absolute;
-  top:0;
-  left:0;
-  width:100%;
-}
-
-.thumbnail-link .video-thumbnail{
-  display:block;
-}
-
-.thumbnail-link:hover .video-thumbnail{
-  display:none;
-}
+ 
