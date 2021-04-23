@@ -25,7 +25,7 @@ function App() {
              
         />
 
-<Cards  imageLink="/Images/Cards/Card2.jpg"
+        <Cards  imageLink="/Images/Cards/Card2.jpg"
                 cardHeading="MotoGP21 is now available."
                 shortDescription="The time has come! Feel the thrills of the most celebrate bikes, the
                 the emotions of the greatest champions, and face challenges like never before!"
