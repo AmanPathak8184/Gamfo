@@ -18,15 +18,19 @@ function App() {
         <div className="row d-flex justify-content-center">
 
         
-        <Cards />
+        <Cards  imageLink="/Images/Cards/Card1.jpg"
+                cardHeading="Tekken 7 has reached another milestone"
+                shortDescription="Tekken 7 has reached another milestone with over 7 MILLION sales worldwide!"
+                longDescription="Thank You to all our fans for their continued support, now get
+                 ready for the next battle!"
+        />
 
-        <Cards />
-
-        <ImageCard ImageCaption="Get Triple Rewards on Casino Work in GTA Online"
-                   ImageLink="/Images/ImageCard/Card1.jpg" />
-        
-        <ImageCard ImageCaption="Pre-orders for Tales of Arise are now available."
-                   ImageLink="/Images/ImageCard/Card2.jpg" />
+        <Cards  imageLink="/Images/Cards/Card1.jpg"
+                cardHeading="Tekken 7 has reached another milestone"
+                shortDescription="Tekken 7 has reached another milestone with over 7 MILLION sales worldwide!"
+                longDescription="Thank You to all our fans for their continued support, now get
+                 ready for the next battle!"
+        />  
 
         </div>
 

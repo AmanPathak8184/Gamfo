@@ -10,10 +10,19 @@
     border-radius: 16px 16px 0px 0px;
   }
 
-  #CardButton{
+  .CardButton{
+    position: relative;
+    z-index: 1;
     color: #3AAFA9;
-    border-color: #3AAFA9;
-   
-     
+    border-color: #3AAFA9; 
  }
-
+ .CardButton:hover,.CardButton:focus,.CardButton:active, 
+ .CardButton:active:focus:not(:disabled):not(.disabled),
+ .CardButton:focus, .CardButton:active, .CardButton:hover{
+     box-shadow: none!important;
+     outline: none;
+     position: relative;
+     z-index: 1;
+     color: #3AAFA9;
+     border-color: #3AAFA9; 
+ }
