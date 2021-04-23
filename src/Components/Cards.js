@@ -10,26 +10,19 @@ class Cards extends Component {
 
             <div className="row  card shadow CardHolder" id="Cards">
 
-<div class="embed-responsive embed-responsive-16by9" id="Video">
-<iframe width="727" height="409" src="https://www.youtube.com/embed/kKLCwDg2JLA" title="YouTube video player" 
-frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
-gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-</div>
-
-
-                {/* <img src={this.props.imageLink} className="card-img-top " alt="..." id="CardsImage" /> */}
+                <img src={this.props.imageLink} className="card-img-top " alt="..." id="CardsImage" />
                 
                 <div className="card-body ">
-                    <h3 className="card-title">{this.props.cardHeading}</h3>
+                    <span className="card-title">{this.props.cardHeading}</span>
                     <p className="text-muted ">{this.props.shortDescription}</p>
-                    <div class="collapse text-muted" id="LongDescription">
+
+                    {/* Long Description */}
+                    {/* <div class="collapse text-muted" id="LongDescription">
                             {this.props.longDescription}
-                    </div>
+                    </div> */}
 
-                   
+                
                     <div className="container" >
-
                         <div className="row justify-content-end">
                             <button type="button" className="btn  CardButton"
                                 data-bs-toggle="collapse" data-bs-target="#LongDescription" 
@@ -37,7 +30,6 @@ gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 Read More
                              </button>
                         </div>
-
                     </div>
 
 

@@ -21,21 +21,14 @@ function App() {
         <Cards  imageLink="/Images/Cards/Card1.jpg"
                 cardHeading="Tekken 7 has reached another milestone"
                 shortDescription="Tekken 7 has reached another milestone with over 7 MILLION sales worldwide!
-                Thank You to all our fans for their continued support, now get
-                 ready for the next battle!"
-                longDescription="
-                 To help celebrate, the developer has once again added to its character artwork, which you can find at the top of this article. It now includes the most recent DLC fighters, Kunimitsu and Lidia.
-                 "
+                Thank You to all our fans for their continued support, now get ready for the next battle!"
+             
         />
 
-<Cards  imageLink="/Images/Cards/Card1.jpg"
-                cardHeading="Tekken 7 has reached another milestone"
-                shortDescription="Tekken 7 has reached another milestone with over 7 MILLION sales worldwide!
-                Thank You to all our fans for their continued support, now get
-                 ready for the next battle!"
-                longDescription="
-                 To help celebrate, the developer has once again added to its character artwork, which you can find at the top of this article. It now includes the most recent DLC fighters, Kunimitsu and Lidia.
-                 "
+<Cards  imageLink="/Images/Cards/Card2.jpg"
+                cardHeading="MotoGP21 is now available."
+                shortDescription="The time has come! Feel the thrills of the most celebrate bikes, the
+                the emotions of the greatest champions, and face challenges like never before!"
         />
 
         </div>
