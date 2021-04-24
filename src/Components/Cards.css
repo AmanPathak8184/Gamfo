@@ -1,9 +1,10 @@
 #Cards{
-    width: 90%;
-    margin-top: 1%;
+    width: 100%;
+    margin:0%;
     margin-bottom: 5%;
     padding: 0%;
     border-radius: 16px;
+   
   }
 
   #CardsImage{
@@ -43,4 +44,61 @@
    font-family: 'Roboto', sans-serif;
  }
 
+ /*Extra Small Devices - None*/
+ @media  (max-width:575px) {
  
+}
+
+ /* Small Devices - sm */
+@media (min-width:576px) and (max-width:767px) {
+}
+
+/* Medium Devices -md */
+@media (min-width:768px) and (max-width:991px) {
+
+  #Cards{
+    height: 510px;
+  }
+  .CardButton{
+    position: absolute;
+    bottom:15px;
+    }
+
+}
+
+ /* Large Devices */
+ @media (min-width:992px) and (max-width:1199px) {
+
+  #Cards{
+    height: 530px;
+  }
+  .CardButton{
+    position: absolute;
+    bottom:15px;
+    }
+  
+ }
+
+ /* Extra Large Devices */
+ @media (min-width:1200px) and (max-width:1399px) {
+  #Cards{
+    height: 520px;
+  }
+  .CardButton{
+    position: absolute;
+    bottom:15px;
+    }
+  }
+
+   /* Extra Extra Large Devices */
+ @media (min-width:1400px) {
+  #Cards{
+    height: 550px;
+  }
+
+  .CardButton{
+    position: absolute;
+    bottom:10px;
+ }
+ 
+  }

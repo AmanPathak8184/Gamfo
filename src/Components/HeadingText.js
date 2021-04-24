@@ -5,10 +5,11 @@ class HeadingText extends Component{
     render(){
         return(
 
-            <section className="Featured"> 
-         <span className="mt-5 ml-3" id="HeadingText">{this.props.heading}</span>
-         <p className="text-muted ml-3">Find all the latest news here</p>
-      </section>
+           
+            <div className="container-fluid Featured"> 
+                 <span className="mt-5 " id="HeadingText">{this.props.heading}</span>
+                <p className="text-muted ml-3">Find all the latest news here</p>
+            </div>
         );
     }
 }

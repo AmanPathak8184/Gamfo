@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "imageLink": "/Images/Cards/Card1.jpg",
+        "cardHeader": "Tekken 7 has reached another milestone",
+        "shortDescription":"Tekken 7 has reached another milestone with over 7 MILLION sales worldwide! Thank You to all our fans for their continued support, now get ready for the next battle!"
+    },
+  
+    {
+        "id": 2,
+        "imageLink": "/Images/Cards/Card2.jpg",
+        "cardHeader": "MotoGP21 is now available.",
+        "shortDescription":"The time has come! Feel the thrills of the most celebrate bikes,the emotions of the greatest champions, and face challenges like never before!"
+    },
+    {
+        "id": 3,
+        "imageLink": "/Images/Cards/Card3.jpg",
+        "cardHeader": "Horizon Zero Dawn Sale!",
+        "shortDescription":"You've got 48 hours left to save big on Horizon Zero Dawn for PC. Grab the Complete Edition for $29.99 to uncover Aloy's destiny, but be quick - this sale ends on April 25!"
+    },
+    {
+        "id": 4,
+        "imageLink": "/Images/Cards/Card4.jpg",
+        "cardHeader": "Claim Hand of Fate 2 & Alien:Isolation for Free!",
+        "shortDescription":"Tempt fate in a living board game set in a world of dark fantasy, or discover the true meaning of fear facing mortals danger...in space. Claim Hand of Fate 2 & Alien:Isolation for Free! on the Epic Games Store until April 29!"
+    }
+]

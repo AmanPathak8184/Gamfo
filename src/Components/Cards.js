@@ -6,7 +6,7 @@ class Cards extends Component {
 
     render() {
         return (
-
+ 
 
             <div className="row  card shadow CardHolder" id="Cards">
 
@@ -16,12 +16,6 @@ class Cards extends Component {
                
                     <span className="card-title">{this.props.cardHeading}</span>
                     <p className="text-muted ">{this.props.shortDescription}</p>
-
-                    {/* Long Description */}
-                    {/* <div class="collapse text-muted" id="LongDescription">
-                            {this.props.longDescription}
-                    </div> */}
-
                 
                     <div className="container" >
                         <div className="row justify-content-end">
