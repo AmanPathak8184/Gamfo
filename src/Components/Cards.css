@@ -93,7 +93,7 @@
    /* Extra Extra Large Devices */
  @media (min-width:1400px) {
   #Cards{
-    height: 550px;
+    height: 600px;
   }
 
   .CardButton{
