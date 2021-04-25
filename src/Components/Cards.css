@@ -47,10 +47,26 @@
  /*Extra Small Devices - None*/
  @media  (max-width:575px) {
  
+  #Cards{
+    height: 510px;
+  }
+  .CardButton{
+    position: absolute;
+    bottom:15px;
+    }
 }
 
  /* Small Devices - sm */
 @media (min-width:576px) and (max-width:767px) {
+
+  #Cards{
+    height: 510px;
+  }
+  .CardButton{
+    position: absolute;
+    bottom:15px;
+    }
+
 }
 
 /* Medium Devices -md */
