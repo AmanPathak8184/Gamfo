@@ -1,0 +1,72 @@
+.Test{
+    border: 2px solid red;
+}
+
+#TopGames{
+
+width: 95%;
+ position: relative;
+  }
+
+  .HeadTopGames{
+    padding: 2%;
+  }
+  
+.HeadTopGames::before{
+    position: absolute;
+    content: "";
+    background-color: #3AAFA9;
+  }
+
+  .HeadTopGames::before{
+    width: 100%;
+    height:5px;
+    left: 0px;
+    top: 0%;
+  }
+
+  .Contents{
+      padding: 2%;
+      width: 95%;
+     position: relative;
+  }
+
+  .Contents::before,.Contents::after{
+    position: absolute;
+    content: "";
+    background-color: #3AAFA9;
+  }
+
+  .Contents::before{
+    width: 100%;
+    height:5px;
+    left: 0px;
+    top: 0%;
+  }
+
+  .Contents::after{
+    width: 100%;
+    height:5px;
+    left: 0px;
+    bottom: 0%;
+  }
+
+  .Block{
+      width: 100%;
+      margin:0%;
+      height: auto;
+      padding: 5%;
+  }
+
+  .ImageBox{
+    padding: 0%;
+    margin: 0%;
+    border: 2px solid red;  
+}
+  .ImageBoxImage{
+      padding: 0%;
+      margin: 0%;
+      width: 100%;
+      
+      
+  }

@@ -5,7 +5,7 @@ import Carousel from './Components/Carousel';
 import ImageCard from './Components/ImageCard';
 import HeadingText from './Components/HeadingText';
 import CardSection from './Components/CardsSection';
-
+import TopWeekSection from './Components/TopWeekSection';
 
 function App() {
 
@@ -13,9 +13,12 @@ function App() {
     <div>
       <Header />
 
-      <HeadingText heading="Featured-28" /> 
+      <HeadingText heading="Featured-29" /> 
 
       <CardSection />
+
+      <TopWeekSection />
+    
 
     </div>
   );
