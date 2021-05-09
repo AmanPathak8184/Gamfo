@@ -13,12 +13,11 @@ function App() {
     <div>
       <Header />
 
-      <HeadingText heading="Featured-29" /> 
+      <HeadingText heading="Featured-33" /> 
 
       <CardSection />
 
-      <TopWeekSection />
-    
+      
 
     </div>
   );
